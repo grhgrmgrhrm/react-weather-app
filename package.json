@@ -1,5 +1,6 @@
 {
 	"name": "weather-app",
+	"homepage": "https://grhgrmgrhrm.github.io/react-weather-app/",
 	"version": "1.0.0",
 	"description": "React app using Chakra UI and OpenWeatherMap API",
 	"main": "src/index.tsx",
@@ -8,8 +9,8 @@
 	"private": false,
 	"scripts": {
 		"prebuild": "rimraf dist",
-		"build": "webpack --config webpack.config.js",
-		"dev": "webpack server --config webpack.config.js",
+		"build": "webpack --config webpack.config.js_",
+		"dev": "webpack server --config webpack.config.js_",
 		"lint": "eslint --fix \"./src/**/*.{tsx,ts,js,jsx,json,css,scss,md}\"",
 		"format": "prettier --write \"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"prepare": "husky install && npx husky add .husky/pre-commit \"npx lint-staged\""
