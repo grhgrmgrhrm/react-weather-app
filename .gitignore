@@ -3,7 +3,7 @@
 /workspace.xml
 # Editor-based HTTP Client requests
 /httpRequests/
-# /.env
+/.env
 /node_modules
 /.idea
 /.husky
