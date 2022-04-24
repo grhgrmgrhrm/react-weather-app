@@ -4,6 +4,7 @@
 # Editor-based HTTP Client requests
 /httpRequests/
 /node_modules
+
 /.env
 /.idea
 /.husky
